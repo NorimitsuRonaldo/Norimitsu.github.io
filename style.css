@@ -1,0 +1,33 @@
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #b2e5ef;
+}
+
+#Project {
+  background-color: #b2e5ef;
+}
+
+section{
+  padding-top: 5rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin: 0 10px;
+}
+
+.social-icon img {
+  width: 40px; /* Ukuran ikon */
+  height: 40px; /* Ukuran ikon */
+  transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1); /* Efek zoom saat hover */
+}
